@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+/* header*/
+header {
+  height: 152px;
+}
+.header-content {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  padding-right: 115px;
+  padding-left: 100px;
+}
+.logo {
+  display: flex;
+  padding-top: 6px;
+  text-align: center;
+}
+.photologo {
+  width: 29.975px;
+  height: 35.975px;
+  position: relative;
+}
+.logotext {
+  font-size: 30px;
+  font-family: "Rockwell";
+  color: rgb(32, 34, 66);
+  line-height: 0.8;
+  position: absolute;
+  padding-left: 50px;
+  margin-top: -1px;
+  padding-top: 5px;
+}
+.navi-list {
+  display: flex;
+  list-style: none;
+}
+.navi-link {
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(32, 34, 66);
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 700;
+}
+.maguwo {
+  font-weight: 300;
+}
+/* end of header*/
+/* header main*/
+.header-main {
+  height: 795px;
+  background-image: url(images/backgroundphoto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 220px;
+}
+.header-main-text {
+  font-size: 48px;
+  font-family: "MavenPro" sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+  padding-top: 20px;
+}
+.header-main-image {
+  padding-bottom: 35px;
+}
+.form-btn {
+  width: 570px;
+  height: 91px;
+  background-color: rgba(221, 221, 221, 50%);
+  border: none;
+}
+.domain {
+  width: 380px;
+  height: 55px;
+  font-size: 18px;
+  font-family: "Raleway" sans-serif;
+  color: rgb(45, 45, 45);
+  line-height: 1.333;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+.check-btn {
+  width: 150px;
+  height: 55px;
+  background-color: #ffe13e;
+}
